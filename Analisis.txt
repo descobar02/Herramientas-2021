@@ -1,0 +1,7 @@
+1. En la implementación se busco asegurar que las entradas que le daba el usuario al programa, fueran del tipo esperado, es decir que
+si el usuario ingresa un numero el programa verifica que es asi, de otra forma se le indica al usuario que el valor ingresado
+es incorrecto. Sin embargo, si el usuario de forma abrupta detiene el programa o por alguna razon el computador se apaga,
+este programa no se encuentra en la capacidad de continuar donde se quedo ejecutando.
+
+2. Para solucionar este problema se puede guardar el estado de cada una de las variables del programa, de tal forma que
+cuando el programa vuelva a iniciar, verifique si quedo en un estado sin terminar y retome donde quedo.
